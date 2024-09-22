@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subhomoy's Website</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/logo.svg" alt="Logo" width="50" />
+      </div>
+      <div>
+        <div class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="introduction">
+        <h1>Welcome to My Static Website</h1>
+        <article>
+          <h2>Introduction</h2>
+          <p>
+            I've recently self-hosted
+            <a href="https://coolify.io">Coolify</a> and I'm testing to see how
+            it deploys static websites.
+          </p>
+          <p>
+            In order to test this out, I've created this simple one-page website
+            with three sections: Home, About, and Contact. There is a separate
+            CSS file that styles the website.
+          </p>
+          <img src="https://via.placeholder.com/250" alt="Placeholder Image" />
+          <p>
+            I'm making the source code for this single-page website available on
+            GitHub.
+          </p>
+        </article>
+      </section>
+
+      <section id="resources">
+        <h2>Resources</h2>
+        <article>
+          <p>
+            I was following Syntax's
+            <a href="https://youtu.be/taJlPG82Ucw">YouTube video</a> on coolify.
+          </p>
+        </article>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <article>
+          <p>I'm a developer, researcher, and designer.</p>
+          <p>
+            You can find out more about me on my website's
+            <a href="https://hungrybluedev.in/about">About Me</a> page.
+          </p>
+        </article>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <article>
+          <p>
+            Head to my <a>contact</a> page if you would like to chat with me!
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Subhomoy's Website</p>
+      <nav>
+        <ul>
+          <li><a href="https://hungrybluedev.in">Website</a></li>
+          <li><a href="https://github.com/hungrybluedev">GitHub</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+    <script src="scripts/hamburger.js"></script>
+  </body>
+</html>
